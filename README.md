@@ -1,4 +1,4 @@
-Exerice React + Typescript
+Exercice React + Typescript
 
 Démarrer le serveur : 
 npm run dev
