@@ -122,10 +122,10 @@ const categoryLabels: { [key: string]: string } = {
   "Super-héros": "Superheros",
 };
 
-const MoviesList: React.FC = () => {
-  const [movies, setMovies] = useState<Movie[]>(moviesData);
-  const [perPage, setPerPage] = useState<number>(4);
-  const [currentPage, setCurrentPage] = useState<number>(1);
+const MoviesList = () => {
+  const [movies, setMovies] = useState(moviesData);
+  const [perPage, setPerPage] = useState(4);
+  const [currentPage, setCurrentPage] = useState(1);
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
 
   const toggleLike = (id: number) => {
